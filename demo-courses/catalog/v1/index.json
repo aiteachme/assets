@@ -1,5 +1,33 @@
 {
   "schema": "aiteachme.demo_courses.catalog.v1",
-  "generated_at": null,
-  "courses": []
+  "generated_at": "2026-05-04T09:36:40Z",
+  "courses": [
+    {
+      "id": "course_6r0zh7cqqy4e",
+      "course_id": "course_6r0zh7cqqy4e",
+      "course_name": "高数核心串讲",
+      "package_url": "atmx/%E9%AB%98%E6%95%B0%E6%A0%B8%E5%BF%83%E4%B8%B2%E8%AE%B2-%E7%A4%BA%E4%BE%8B%E8%AF%BE%E7%A8%8B1.atmx",
+      "package_filename": "高数核心串讲-示例课程1.atmx",
+      "file_size_bytes": 258717,
+      "sha256": "19c44e6d1d365b84b1f9a63407c3b25b5d740abc1fdd71f1675adb21ca67b1a5",
+      "exported_at": "2026-05-04T09:35:38.227751Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 5,
+        "knowledge_unit_count": 85,
+        "knowledge_edge_count": 85,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 171,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 28,
+        "exam_paper_count": 5,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 10,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕高数p63 (Part 1)、高数p63 (Part 2)、高数p63 (Part 3)、高数p63 (Part 4)、高数p63 (Part 5)、高数p63 (Part 6)展开的学习空间。 我会先对照高等数学的核心知识体系与考研数学一的考查范围，梳理出本资料中覆盖的关键模块及其逻辑关联。接着将逐层拆解“极限→导数→微分→积分”这一主线中的核心方法链，重点比对无穷小替换、洛必达法则、泰勒展开等高频工具在不同场景下的适用条件与优先级。随后归并各章节中重复出现的题型模式，如极值判定、反常积分收敛性判断、二重积分区域划分等，形成可复用的解题路径图谱。最后基于资料中反复强调的“易错边界”与“常见命题”，提炼出高价值的判断节点与陷阱提示，构建一个以问题解决为导向的粗颗粒复习骨架。",
+      "icon_key": "sigma"
+    }
+  ]
 }
