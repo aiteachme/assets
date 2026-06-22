@@ -1,5 +1,114 @@
 {
   "schema": "aiteachme.demo_courses.catalog.v1",
-  "generated_at": "2026-06-07T07:57:55Z",
-  "courses": []
+  "generated_at": "2026-06-22T02:23:46Z",
+  "courses": [
+    {
+      "id": "course_z6t34dk7jm3g",
+      "course_id": "course_z6t34dk7jm3g",
+      "course_name": "C语言期末速成课",
+      "package_url": "atmx/C%E8%AF%AD%E8%A8%80%E6%9C%9F%E6%9C%AB%E9%80%9F%E6%88%90%E8%AF%BE-course_z.atmx",
+      "package_filename": "C语言期末速成课-course_z.atmx",
+      "file_size_bytes": 369346,
+      "sha256": "63911795c678d0f5d67c597b09994267a3a157936fed49fb317f203fd87ab58e",
+      "exported_at": "2026-06-21T07:15:57.834345Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 7,
+        "knowledge_unit_count": 181,
+        "knowledge_edge_count": 391,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 549,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 16,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕Preamble (Part 1)、Preamble (Part 2)、Preamble (Part 3)、Preamble (Part 4)、Preamble (Part 5)、Preamble (Part 6)展开的学习空间。 本课程按“零基础铺垫 + 语法易错 + 多练变式 + 错因提醒”组织，主要依据已上传 C 语言期末考题材料，并用通用 C 语法规则校正 OCR 可能带来的题干粘连和符号误识别。学习路径从变量与表达式入手，先补 main 函数、数据类型、输入输出、运算符优先级和自增自减；再进入分支与循环，集中训练条件判断、switch 穿透、循环边界和输出判断；随后学习数组、函数、指针、结构体，解决字符串结束符、参数传递、地址解引用和成员访问等高频错因；最后用文件基础收束，围绕 fopen、fscanf、fprintf、fclose 等常考代码阅读、改错例题、小练习和错因纠正完成期末速成闭环。",
+      "icon_key": "braces"
+    },
+    {
+      "id": "course_c52xiylf3bww",
+      "course_id": "course_c52xiylf3bww",
+      "course_name": "概率论与数理统计系统课",
+      "package_url": "atmx/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E7%B3%BB%E7%BB%9F%E8%AF%BE-course_c.atmx",
+      "package_filename": "概率论与数理统计系统课-course_c.atmx",
+      "file_size_bytes": 379646,
+      "sha256": "2da804d88368250d7f3bc4cdc418f95218530530e4e4d55b828297d27b8074a0",
+      "exported_at": "2026-06-21T07:15:57.727126Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 177,
+        "knowledge_edge_count": 357,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 567,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 16,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕概率论与数理统计课程材料 (Part 1)、概率论与数理统计课程材料 (Part 2)、概率论与数理统计课程材料 (Part 3)、概率论与数理统计课程材料 (Part 4)、概率论与数理统计课程材料 (Part 5)、概率论与数理统计课程材料 (Part 6)展开的学习空间。 本方案以已上传《概率论与数理统计》材料为主线，按“先补基础、突出公式条件、多练变式、步骤解析”的诊断选择组织。课程分六章推进：先在随机事件与概率中补事件关系、概率模型和条件概率；再进入随机变量及分布，梳理一维、二维、常见分布和函数分布；随后用数字特征连接期望、方差、协方差与相关系数。后半程学习大数定律与中心极限定理，重点训练标准化和近似计算；再讲参数估计，区分矩估计、最大似然和区间估计；最后完成假设检验，围绕 Z/t/χ² 检验、拒绝域、两类错误和典型错因进行例题、变式题与步骤化解析。",
+      "icon_key": "square-function"
+    },
+    {
+      "id": "course_i3kvx3dw6ilm",
+      "course_id": "course_i3kvx3dw6ilm",
+      "course_name": "线性代数期末速成课",
+      "package_url": "atmx/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E6%9C%9F%E6%9C%AB%E9%80%9F%E6%88%90%E8%AF%BE-course_i.atmx",
+      "package_filename": "线性代数期末速成课-course_i.atmx",
+      "file_size_bytes": 448215,
+      "sha256": "f14fec5b546895917d8c26275dc2272b78db01558fb8f04188bcf5853ba38033",
+      "exported_at": "2026-06-21T07:15:57.615429Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 7,
+        "knowledge_unit_count": 429,
+        "knowledge_edge_count": 774,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 546,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 16,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕线性代数课程材料 (Part 1)、线性代数课程材料 (Part 2)、线性代数课程材料 (Part 3)、线性代数课程材料 (Part 4)、线性代数课程材料 (Part 5)、线性代数课程材料 (Part 6)展开的学习空间。 本方案按“直接题型”起步，不做完整理论铺垫，以上传讲义中的练习型内容为主线，按期末高频模块推进。先用行列式解决逆序数、性质化简、展开定理和范德蒙行列式计算；再进入矩阵运算与逆矩阵，明确乘法维数、伴随矩阵和可逆条件；随后用矩阵初等变换贯通阶梯形、最简形、求逆和秩。中段集中训练线性方程组的秩判定、通解写法和参数讨论，再处理向量组的线性表示、相关性、极大无关组。后段强化特征值、特征向量、相似对角化，最后补齐二次型的矩阵表示、标准形、惯性指数和正定判别，并为每章配置变式练习与具体错因提醒。",
+      "icon_key": "square-function"
+    },
+    {
+      "id": "course_ommntlwcc2ve",
+      "course_id": "course_ommntlwcc2ve",
+      "course_name": "高等数学上系统复习课",
+      "package_url": "atmx/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E4%B8%8A%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0%E8%AF%BE-course_o.atmx",
+      "package_filename": "高等数学上系统复习课-course_o.atmx",
+      "file_size_bytes": 319030,
+      "sha256": "835ffb5615b5787dbb3ea979d360d351e1e253ddc8898405250fd6a9a12f7275",
+      "exported_at": "2026-06-21T07:15:57.466511Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 175,
+        "knowledge_edge_count": 374,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 546,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 16,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕高等数学上课程材料 (Part 1)、高等数学上课程材料 (Part 2)、高等数学上课程材料 (Part 3)、高等数学上课程材料 (Part 4)、高等数学上课程材料 (Part 5)、高等数学上课程材料 (Part 6)展开的学习空间。 本课程按用户给出的六个知识块组织为系统复习路径，并执行“先补预备、突出概念来龙、少量随练、步骤解析”的节奏。先从函数基础补清定义域、值域、复合函数和常用初等函数，为极限语言建立对象；再进入极限与连续，重点处理左右极限、连续条件、间断点和典型极限计算；随后学习导数与微分，打通导数定义、求导规则、可导可微连续关系；第四章把微分中值定理与导数应用合并推进，讲单调性、极值、凹凸性和不等式证明；第五章复习不定积分公式与换元、分部积分、有理函数积分；最后以定积分及其应用收束，围绕定积分计算、分段积分、面积与旋转体体积安排例题、少量小练和错因订正。",
+      "icon_key": "sigma"
+    }
+  ]
 }
