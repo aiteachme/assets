@@ -1,6 +1,6 @@
 {
   "schema": "aiteachme.demo_courses.catalog.v1",
-  "generated_at": "2026-06-22T02:23:46Z",
+  "generated_at": "2026-08-23T16:00:39Z",
   "courses": [
     {
       "id": "course_z6t34dk7jm3g",
@@ -30,6 +30,33 @@
       "icon_key": "braces"
     },
     {
+      "id": "course_v1ysv26zai86",
+      "course_id": "course_v1ysv26zai86",
+      "course_name": "数值与矩阵分析系统复习",
+      "package_url": "atmx/%E6%95%B0%E5%80%BC%E4%B8%8E%E7%9F%A9%E9%98%B5%E5%88%86%E6%9E%90%E7%B3%BB%E7%BB%9F%E5%A4%8D%E4%B9%A0-course_v1ysv26zai86.atmx",
+      "package_filename": "数值与矩阵分析系统复习-course_v1ysv26zai86.atmx",
+      "file_size_bytes": 464132,
+      "sha256": "a76e882b0d514c01ed15ad8dfb8ec95f3c28748c8f396d1f22e95771f0ffb140",
+      "exported_at": "2026-08-23T14:01:22.835813Z",
+      "stats": {
+        "raw_file_count": 9,
+        "knowledge_document_count": 7,
+        "knowledge_unit_count": 0,
+        "knowledge_edge_count": 0,
+        "knowledge_graph_sync_run_count": 0,
+        "knowledge_graph_source_ref_count": 0,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 0,
+        "exam_paper_count": 0,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕Preamble、大连理工大学工科硕士研究生数学公共基础课程、授课教师基本信息、主 讲 教 材、计算机科学计算、参考书目 (Reference)展开的学习空间。 课程按七个核心知识块紧凑推进：先复习数值误差、有效数字与矩阵范数，再掌握线性方程组直接解法；继而集中梳理 QR、SVD、Jordan 等矩阵分解及矩阵函数计算。随后复习线性与非线性迭代法的收敛条件，衔接插值、最小二乘逼近、数值微分和数值求积。各章默认已有数值分析基础，突出常用公式、证明关键步骤及填空、计算、证明与综合题。最后完整覆盖常微分方程单步法、多步法的阶、收敛性与绝对稳定区间。",
+      "icon_key": "notebook-tabs"
+    },
+    {
       "id": "course_c52xiylf3bww",
       "course_id": "course_c52xiylf3bww",
       "course_name": "概率论与数理统计系统课",
@@ -57,6 +84,33 @@
       "icon_key": "square-function"
     },
     {
+      "id": "course_q1fmbw5qn7ng",
+      "course_id": "course_q1fmbw5qn7ng",
+      "course_name": "管理会计本量利实战课",
+      "package_url": "atmx/%E7%AE%A1%E7%90%86%E4%BC%9A%E8%AE%A1%E6%9C%AC%E9%87%8F%E5%88%A9%E5%AE%9E%E6%88%98%E8%AF%BE.atmx",
+      "package_filename": "管理会计本量利实战课.atmx",
+      "file_size_bytes": 443318,
+      "sha256": "a15f49eecf09efd4da47a92b95cc3e97d53348ecbca594582f3cbcaea31b39ce",
+      "exported_at": "2026-08-23T12:48:25.519343Z",
+      "stats": {
+        "raw_file_count": 2,
+        "knowledge_document_count": 5,
+        "knowledge_unit_count": 54,
+        "knowledge_edge_count": 134,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 176,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 30,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕课程定位、固定五章、学习成果、写作与案例规范、课程边界、知识图谱颗粒度展开的学习空间。 课程严格按五个固定知识块递进：先在“成本性态与相关范围”建立成本分类与模型边界，再用“边际贡献与保本点”完成单产品基础测算；继而在“目标利润与安全边际”分析利润目标和经营风险，在“多产品组合与敏感性分析”处理稳定销售组合及参数变化，最终于“经营情景决策报告”整合计算证据、限制与建议。全课贯穿小型烘焙工作室月度经营分析，每章至少两个完整案例、易错辨析与迁移任务，并配置恰好三题且含分步解析的单元测试；案例统一交代期间、币种、业务量、公式代入、结果回代和管理含义。",
+      "icon_key": "calculator"
+    },
+    {
       "id": "course_i3kvx3dw6ilm",
       "course_id": "course_i3kvx3dw6ilm",
       "course_name": "线性代数期末速成课",
@@ -82,6 +136,60 @@
       },
       "description": "围绕线性代数课程材料 (Part 1)、线性代数课程材料 (Part 2)、线性代数课程材料 (Part 3)、线性代数课程材料 (Part 4)、线性代数课程材料 (Part 5)、线性代数课程材料 (Part 6)展开的学习空间。 本方案按“直接题型”起步，不做完整理论铺垫，以上传讲义中的练习型内容为主线，按期末高频模块推进。先用行列式解决逆序数、性质化简、展开定理和范德蒙行列式计算；再进入矩阵运算与逆矩阵，明确乘法维数、伴随矩阵和可逆条件；随后用矩阵初等变换贯通阶梯形、最简形、求逆和秩。中段集中训练线性方程组的秩判定、通解写法和参数讨论，再处理向量组的线性表示、相关性、极大无关组。后段强化特征值、特征向量、相似对角化，最后补齐二次型的矩阵表示、标准形、惯性指数和正定判别，并为每章配置变式练习与具体错因提醒。",
       "icon_key": "square-function"
+    },
+    {
+      "id": "course_izwtoakcf2ff",
+      "course_id": "course_izwtoakcf2ff",
+      "course_name": "编译原理考前复习",
+      "package_url": "atmx/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0-course_izwtoakcf2ff.atmx",
+      "package_filename": "编译原理考前复习-course_izwtoakcf2ff.atmx",
+      "file_size_bytes": 454357,
+      "sha256": "50a33c2da253d82e94f0dd062188097ac1e8a922719a6f9f8b0e506c5bb23bc6",
+      "exported_at": "2026-08-23T12:30:17.408489Z",
+      "stats": {
+        "raw_file_count": 7,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 249,
+        "knowledge_edge_count": 571,
+        "knowledge_graph_sync_run_count": 2,
+        "knowledge_graph_source_ref_count": 889,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 10,
+        "exam_paper_count": 1,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕什么是编译程序？、编译程序、编译程序怎么设计和实现、为什么学习编译、课程特点、先修课程展开的学习空间。 课程依据已解析的7份资料，按“编译流程与文法基础—语法分析—语义分析—中间代码—运行时环境”递进复习。前两章约占25%，梳理编译阶段、上下文无关文法及LL/LR常考计算；语义分析与中间代码三章约占50%，重点突破属性计算、符号表、类型检查、四元式与回填；运行时存储管理约占25%。各章从术语和先修概念起步，必考或常考题型明确标注，不重要内容简述，并按每章2个典型例题、3道短测及主要步骤解析组织。",
+      "icon_key": "notebook-tabs"
+    },
+    {
+      "id": "course_dlz7r6mh70tn",
+      "course_id": "course_dlz7r6mh70tn",
+      "course_name": "高中物理动力学专题课",
+      "package_url": "atmx/%E9%AB%98%E4%B8%AD%E7%89%A9%E7%90%86%E5%8A%A8%E5%8A%9B%E5%AD%A6%E4%B8%93%E9%A2%98%E8%AF%BE.atmx",
+      "package_filename": "高中物理动力学专题课.atmx",
+      "file_size_bytes": 246173,
+      "sha256": "34f674b35d6b4b83b1e33077a98e5edf83accf3d02ab45dcf280e8dd70e8493a",
+      "exported_at": "2026-08-23T12:14:40.532287Z",
+      "stats": {
+        "raw_file_count": 2,
+        "knowledge_document_count": 5,
+        "knowledge_unit_count": 55,
+        "knowledge_edge_count": 105,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 156,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 30,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕课程定位、固定五章、学习成果、写作与例题规范、课程边界、知识图谱颗粒度展开的学习空间。 依据课程合同与五个固定知识块，课程保持恰好五章；“恰好七章”与已指定的五章清单及不得增章要求冲突，故不拆出导言、总结或题库章。学习依次推进研究对象与受力图、常见力与摩擦模型、牛顿第二定律单体建模、连接体与整体隔离法、临界状态与实验验证。全课统一执行研究对象—受力图—定方向—列方程—约束检验，限定于合同允许的直线动力学情境。每章配置至少两个完整例题、易错辨析、迁移任务及恰好三题单元测试，并标明公式条件、方向与 SI 单位。",
+      "icon_key": "atom"
     },
     {
       "id": "course_ommntlwcc2ve",
