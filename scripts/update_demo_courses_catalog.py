@@ -12,6 +12,7 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 ATMX_DIR = ROOT / "demo-courses" / "atmx"
 CATALOG_PATH = ROOT / "demo-courses" / "catalog" / "v1" / "index.json"
+DISPLAY_ORDER_PATH = ROOT / "demo-courses" / "catalog" / "v1" / "display-order.json"
 
 
 def _utc_now_iso() -> str:
@@ -64,12 +65,53 @@ def _build_item(path: Path) -> dict[str, Any]:
     }
 
 
+def _read_display_order() -> list[str]:
+    if not DISPLAY_ORDER_PATH.exists():
+        return []
+
+    payload = json.loads(DISPLAY_ORDER_PATH.read_text(encoding="utf-8"))
+    packages = payload.get("packages") if isinstance(payload, dict) else None
+    if not isinstance(packages, list):
+        raise ValueError(f"{DISPLAY_ORDER_PATH}: packages must be a list")
+
+    ordered_packages: list[str] = []
+    seen: set[str] = set()
+    for index, value in enumerate(packages, start=1):
+        package_filename = str(value or "").strip()
+        if not package_filename:
+            raise ValueError(f"{DISPLAY_ORDER_PATH}: packages[{index}] must be a non-empty filename")
+        if package_filename in seen:
+            raise ValueError(f"{DISPLAY_ORDER_PATH}: duplicate package filename: {package_filename}")
+        seen.add(package_filename)
+        ordered_packages.append(package_filename)
+    return ordered_packages
+
+
+def _sort_items_for_display(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    ordered_packages = _read_display_order()
+    rank_by_filename = {filename: index for index, filename in enumerate(ordered_packages)}
+    available_filenames = {str(item.get("package_filename") or "") for item in items}
+    missing_filenames = [filename for filename in ordered_packages if filename not in available_filenames]
+    if missing_filenames:
+        missing = ", ".join(missing_filenames)
+        raise ValueError(f"{DISPLAY_ORDER_PATH}: package files not found: {missing}")
+
+    def display_key(item: dict[str, Any]) -> tuple[int, int, str, str]:
+        filename = str(item.get("package_filename") or "")
+        if filename in rank_by_filename:
+            return (0, rank_by_filename[filename], "", filename)
+        course_name = str(item.get("course_name") or "")
+        return (1, 0, course_name.casefold(), filename.casefold())
+
+    return sorted(items, key=display_key)
+
+
 def main() -> None:
     ATMX_DIR.mkdir(parents=True, exist_ok=True)
     CATALOG_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     items = [_build_item(path) for path in sorted(ATMX_DIR.glob("*.atmx"))]
-    items.sort(key=lambda item: (str(item.get("course_name") or ""), str(item.get("package_filename") or "")))
+    items = _sort_items_for_display(items)
     existing_payload = _read_existing_catalog()
     generated_at = (
         existing_payload.get("generated_at")
