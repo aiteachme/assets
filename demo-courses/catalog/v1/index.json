@@ -1,6 +1,6 @@
 {
   "schema": "aiteachme.demo_courses.catalog.v1",
-  "generated_at": "2026-08-31T15:37:53Z",
+  "generated_at": "2026-09-02T01:26:51Z",
   "courses": [
     {
       "id": "course_ommntlwcc2ve",
@@ -217,6 +217,114 @@
       },
       "description": "围绕课程定位、固定五章、学习成果、写作与案例规范、课程边界、知识图谱颗粒度展开的学习空间。 课程严格按五个固定知识块递进：先在“成本性态与相关范围”建立成本分类与模型边界，再用“边际贡献与保本点”完成单产品基础测算；继而在“目标利润与安全边际”分析利润目标和经营风险，在“多产品组合与敏感性分析”处理稳定销售组合及参数变化，最终于“经营情景决策报告”整合计算证据、限制与建议。全课贯穿小型烘焙工作室月度经营分析，每章至少两个完整案例、易错辨析与迁移任务，并配置恰好三题且含分步解析的单元测试；案例统一交代期间、币种、业务量、公式代入、结果回代和管理含义。",
       "icon_key": "calculator"
+    },
+    {
+      "id": "course_fiy42bofug60",
+      "course_id": "course_fiy42bofug60",
+      "course_name": "大学力学考前冲刺",
+      "package_url": "atmx/%E5%A4%A7%E5%AD%A6%E5%8A%9B%E5%AD%A6%E8%80%83%E5%89%8D%E5%86%B2%E5%88%BA-course_fiy42bofug60.atmx",
+      "package_filename": "大学力学考前冲刺-course_fiy42bofug60.atmx",
+      "file_size_bytes": 398483,
+      "sha256": "3881307fb1637b3f828bc8e1e786d71dcb4b9e859f4efff417fabcb63b8704d0",
+      "exported_at": "2026-09-01T17:03:27.148643Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 193,
+        "knowledge_edge_count": 433,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 611,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 10,
+        "exam_paper_count": 1,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕5小时精通、江苏博事达律师事务所、律师声明 (Part 1)、律师声明 (Part 2)、律师声明 (Part 3)、律师声明 (Part 4)展开的学习空间。 课程以已上传讲义中可识别的力学正文为范围，剔除版权声明等无关内容，按运动学、质点动力学、刚体转动三部分均衡压缩为六章。先补矢量分解、微分积分与运动描述，再处理圆周运动、自然坐标和相对运动；随后完成受力建模、牛顿定律、动量与功能定律的选用；最后掌握转动惯量、力矩、定轴转动方程，并用角动量守恒、力矩功和刚体机械能解决碰撞与转动综合题。各章按2个典型例题和3道小测配置，答案分步并提示常见错因。",
+      "icon_key": "graduation-cap"
+    },
+    {
+      "id": "course_meot4ixvgtu3",
+      "course_id": "course_meot4ixvgtu3",
+      "course_name": "操作系统期末复习课",
+      "package_url": "atmx/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%AF%BE.atmx",
+      "package_filename": "操作系统期末复习课.atmx",
+      "file_size_bytes": 1038589,
+      "sha256": "46cdbda8dfc4382b2c4132cea291a94a94ef6e9bc005f89ba407320aa89fd27f",
+      "exported_at": "2026-08-30T19:14:19.523178Z",
+      "stats": {
+        "raw_file_count": 4,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 66,
+        "knowledge_edge_count": 137,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 192,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 30,
+        "exam_paper_count": 2,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕课程定位、严格固定的六章、最终总结的固定位置与标题、统一讲解结构、考试导向与质量要求、知识图谱颗粒度展开的学习空间。 全课严格按固定六章重建体系：先以“操作系统概述与运行机制”串起应用、系统调用、内核与硬件，再依次复习“进程、线程与处理机调度”“并发、同步、进程通信与死锁”“内存管理与虚拟内存”“文件系统与存储管理”“I/O 与设备管理”。各章覆盖知识框架、机制动机、算法比较、考试题型与易错辨析，保留至少两个完整例题、迁移练习及恰好三题自测；调度、PV、银行家、地址转换、页面置换和磁盘调度均展示可手算中间状态。Linux/xv6仅作实现映射，第六章末以二级标题放置知识关联图和速查清单，不另立章节，也不扩展现代专题。",
+      "icon_key": "cpu"
+    },
+    {
+      "id": "course_thwn6k7zltno",
+      "course_id": "course_thwn6k7zltno",
+      "course_name": "模拟电子技术期末复习",
+      "package_url": "atmx/%E6%A8%A1%E6%8B%9F%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0-course_thwn6k7zltno.atmx",
+      "package_filename": "模拟电子技术期末复习-course_thwn6k7zltno.atmx",
+      "file_size_bytes": 406292,
+      "sha256": "549deee9e5c1c0ef2709a3621d76a94b327af3dc595c80f18e49090b44641d9e",
+      "exported_at": "2026-09-01T16:06:10.614784Z",
+      "stats": {
+        "raw_file_count": 1,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 150,
+        "knowledge_edge_count": 263,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 391,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 0,
+        "exam_paper_count": 1,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕Preamble、8小时精通、江苏博事达律师事务所、律师声明、1.杂质半导体、1） 结的形成展开的学习空间。 本课按“器件基础 → 放大电路 → 反馈与频响 → 运放应用 → 功放与振荡 → 电源”组织，面向期末冲刺复习。前半段重点覆盖二极管、三极管、场效应管及其静态/动态分析，后半段转向反馈、运算放大电路、功率放大与振荡、直流稳压电源等高频考点。各章都按常考程度标注重点，常考题型优先讲透，不常考内容只做简要识别。整体节奏紧凑，基础先补符号、工作区与交直流分析规则，再进入典型题型与综合计算。",
+      "icon_key": "notebook-tabs"
+    },
+    {
+      "id": "course_52l1m5qt324t",
+      "course_id": "course_52l1m5qt324t",
+      "course_name": "随机过程与排队论",
+      "package_url": "atmx/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B%E4%B8%8E%E6%8E%92%E9%98%9F%E8%AE%BA-course_52l1m5qt324t.atmx",
+      "package_filename": "随机过程与排队论-course_52l1m5qt324t.atmx",
+      "file_size_bytes": 361593,
+      "sha256": "657cf164b53711b7e46ddbca182c95c505f9ea2992f0500dbf0b08d08e85de5e",
+      "exported_at": "2026-08-28T07:42:11.585084Z",
+      "stats": {
+        "raw_file_count": 8,
+        "knowledge_document_count": 6,
+        "knowledge_unit_count": 162,
+        "knowledge_edge_count": 341,
+        "knowledge_graph_sync_run_count": 1,
+        "knowledge_graph_source_ref_count": 295,
+        "confirmed_build_plan_count": 1,
+        "question_type_registry_count": 0,
+        "question_template_count": 10,
+        "exam_paper_count": 1,
+        "chat_session_count": 1,
+        "user_knowledge_state_count": 0,
+        "total_file_size_bytes": 0
+      },
+      "description": "围绕**是近代数学的重要组成部分, 特点：**、**教学内容**、**教学目标**、**教学方式和考核方式**、**油加**、**教材及参考资料**展开的学习空间。 本课程按“概率基础—随机过程—马尔可夫过程—排队论”四段均衡推进，面向直接入门但默认已掌握基础概率，只补本课必需定义与结果。前半部分先统一随机过程的表示、有限维分布与数字特征，再进入几种重要随机过程，重点建立泊松过程、维纳过程与正态过程的识别和使用能力。中段集中处理马尔可夫过程与马尔可夫链，掌握状态转移、分类与性质分析。后段转入排队论，从基本排队指标、M/M/1 与有限容量模型，扩展到有限源和一般服务排队系统，最后落到嵌入马尔可夫链法与再生点思路。",
+      "icon_key": "book-open"
     }
   ]
 }
